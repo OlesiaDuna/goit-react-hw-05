@@ -1,0 +1,14 @@
+.castcard {
+  width: 280px;
+  height: 100%;
+  object-fit: contain;
+  background-color: azure;
+}
+.mc {
+  color: rgba(4, 78, 236, 0.5);
+  background-color: rgba(4, 78, 236, 0.5);
+  height: 4px;
+  border: none;
+  width: 101%;
+  margin-top: -2px;
+}

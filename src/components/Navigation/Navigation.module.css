@@ -1,0 +1,38 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(4, 95, 33, 0.95);
+  padding: 15px;
+  box-shadow: 4px;
+  border: 1px solid #022e1e;
+  border-radius: 20px;
+}
+header .headerContainer {
+  padding-block: 20px;
+}
+
+.navList {
+  display: flex;
+}
+
+.link {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px 20px;
+  font-size: 24px;
+  font-weight: 500;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.active {
+  color: #adefb1;
+}
+
+.link:hover {
+  background-color: #5e5e5e;
+  border-radius: 4px;
+}

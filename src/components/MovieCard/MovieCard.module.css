@@ -1,0 +1,10 @@
+ .moviecard {
+  text-align: center;
+  padding-block: 24px;
+  padding-inline: 12px;
+}
+
+.moviePoster {
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+} 
